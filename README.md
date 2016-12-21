@@ -11,9 +11,10 @@ Wire the hygrometer as explained here : https://www.modmypi.com/blog/raspberry-p
 git clone https://github.com/pierrerolland/hipchat-thirsty-plant
 cd hipchat-thirsty-plant
 npm install
-sudo node app.js
 ```
 
 Create a `hipchat.json` at root containing a JSON object with the roomId, the token and the Hipchat host name (`host`).
+
+`sudo node app.js`
 
 Put the hygrometer in a plant and it will send hipchat notifications when it's thirsty in a poor French phone texting language.
